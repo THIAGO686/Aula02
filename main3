@@ -1,0 +1,15 @@
+//escreva um programa que converta uma temperatura de celsius para fahrenheit
+//e vice e versa 
+var temperatura = 65
+var tipoTemperatura = "F"
+var temperaturaConvertida = 0
+
+if (tipoTemperatura == "C" ) {
+    console.log ("Voce escolheu celsius")
+    temperaturaConvertida = ((temperatura * 1.8) + 32 )
+} else {
+    console.log ("voce escolheu fahrenheit")
+    temperaturaConvertida = ((temperatura - 32) * ( 5 / 9) )
+}
+
+console.log ("O valor convertido é: " + temperaturaConvertida)

@@ -12,3 +12,4 @@ if (nmr1 > nmr2){
     console.log ("O nmr2 é o maior")
 
 }
+.
